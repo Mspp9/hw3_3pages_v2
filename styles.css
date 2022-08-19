@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  color: aliceblue;
+}
+header
+{
+  display: flex;
+  justify-content: center; /*смещает лого и меню в центр*/
+}
+.logo, .Top_menu
+{
+display: inline-block; /*ставит в одну линию с лого*/ 
+vertical-align: middle;
+margin-right: 25px;
+}
+.Top_menu li
+{
+  margin-right: 25px;
+  display: inline-block; /*делает по горизонтали*/
+  vertical-align: middle;
+}
+.Top_menu a /*задаем стили для ссылок*/
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: white;
+text-decoration: none; /*убираем подчеркивание ссылок*/
+vertical-align: middle;
+}
+.Top_menu a:hover
+{
+  color: aqua; /*меняет цвет меню при наведении мышки*/
+}
+.logo h1 /*Стили для логотипа*/
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: white;
+vertical-align: middle;
+}
